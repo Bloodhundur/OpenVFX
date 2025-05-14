@@ -1,0 +1,47 @@
+{
+  "name": "GateTSVFX-Plugin",
+  "tree": {
+    "$className": "DataModel",
+    "Workspace": {
+      "plugin_folder": {
+        "$className": "Folder",
+        "$path": "plugin_folder"
+      },
+      "$properties": {
+        "SignalBehavior": "Deferred",
+        "StreamOutBehavior": "Opportunistic",
+        "StreamingEnabled": true,
+        "StreamingIntegrityMode": "PauseOutsideLoadedArea",
+        "WorldPivotData": {
+          "OptionalCFrame": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        }
+      },
+      "$attributes": {
+        "Rojo_Target_CurrentCamera": "59d5e99daf68125b08369ce700000398"
+      }
+    }
+  }
+}
