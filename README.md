@@ -1,4 +1,4 @@
-# GateTSVFX-Plugin
+# OpenVFX
 
 A Roblox Studio plugin featuring a simple UI for browsing and inserting VFX assets from an open-source library.
 
