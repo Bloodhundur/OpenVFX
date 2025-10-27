@@ -20,10 +20,8 @@ A Roblox Studio plugin featuring a simple UI for browsing and inserting VFX asse
 ---
 
 ## Installation
-
-To install roblox plugin directly:
-
-https://create.roblox.com/dashboard/creations/store/120478283866410/configure
+[
+To install roblox plugin directly](https://create.roblox.com/store/asset/120478283866410/OpenVFX)
 
 To install this plugin locally:
 
