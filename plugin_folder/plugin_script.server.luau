@@ -2,7 +2,7 @@ local HttpService = game:GetService("HttpService")
 local plugin_folder = script.Parent
 
 -- Load raw JSON string from child ModuleScript "VFXJSON"
-local raw_json = require(script:WaitForChild("VFXJSON"))
+local raw_json = require(plugin_folder:WaitForChild("VFXJSON"))
 local success, decoded = pcall(function()
 	return HttpService:JSONDecode(raw_json)
 end)
@@ -29,16 +29,16 @@ if typeof(textures_table) == "table" then
 	end
 end
 
-local toolbar = plugin:CreateToolbar("GATETS VFX")
-local toggle_button = toolbar:CreateButton("Textures", "Show Textures", "rbxassetid://8740888472")
+local toolbar = plugin:CreateToolbar("OpenVFX")
+local toggle_button = toolbar:CreateButton("Textures", "Show Textures", "rbxassetid://118676849439255")
 
-local plugin_gui = plugin:CreateDockWidgetPluginGui("GATETS VFX", DockWidgetPluginGuiInfo.new(
+local plugin_gui = plugin:CreateDockWidgetPluginGui("OpenVFX", DockWidgetPluginGuiInfo.new(
 	Enum.InitialDockState.Right,
 	true,
 	false,
 	300, 400, 150, 200
 	))
-plugin_gui.Title = "GATETS VFX"
+plugin_gui.Title = "OpenVFX"
 plugin_gui.Enabled = false
 
 toggle_button.Click:Connect(function()
